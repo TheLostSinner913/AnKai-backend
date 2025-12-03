@@ -1,0 +1,91 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: ankai-backend
+
+  # 主配置
+  main:
+    allow-bean-definition-overriding: true
+
+  # 数据源配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://sh-cdb-blzfrsx8.sql.tencentcdb.com:63562/ankai_db?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: Jihe@20241111
+
+  # Jackson配置
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    default-property-inclusion: non_null
+
+  # Redis配置
+  data:
+    redis:
+      host: 101.34.253.208
+      port: 6379
+      password: just4swiftbooking
+      database: 9
+      timeout: 10000ms
+      lettuce:
+        pool:
+          max-active: 8
+          max-wait: -1ms
+          max-idle: 8
+          min-idle: 0
+
+# MyBatis Plus配置
+mybatis-plus:
+  configuration:
+    # 开启驼峰命名转换
+    map-underscore-to-camel-case: true
+    # 开启缓存
+    cache-enabled: false
+    # 打印SQL
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+  # 全局配置
+  global-config:
+    db-config:
+      # 主键类型 - 使用数据库自增ID
+      id-type: AUTO
+      # 逻辑删除字段
+      logic-delete-field: deleted
+      # 逻辑删除值
+      logic-delete-value: 1
+      # 逻辑未删除值
+      logic-not-delete-value: 0
+      # 自动填充策略
+      insert-strategy: not_null
+      update-strategy: not_null
+      select-strategy: not_empty
+
+  # mapper文件位置
+  mapper-locations: classpath*:mapper/**/*.xml
+  # 实体类别名包路径
+  type-aliases-package: com.ankai.entity
+
+# 日志配置由logback-spring.xml管理
+
+# JWT配置
+jwt:
+  secret: ankai-backend-jwt-secret-key-2024-very-long-secret-key-for-hs512-algorithm-must-be-at-least-512-bits-64-bytes-long-to-ensure-security
+  expiration: 7200  # 2小时（秒）
+  expiration-remember: 604800  # 7天（秒）
+
+# Swagger配置
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  packages-to-scan: com.ankai.controller

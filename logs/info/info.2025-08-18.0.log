@@ -1,0 +1,281 @@
+2025-08-18 11:19:30.672 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-08-18 11:19:30.711 [main] INFO  com.ankai.AnKaiBackendApplication - Starting AnKaiBackendApplication using Java 17.0.15 with PID 18464 (C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend\target\classes started by A in C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend)
+2025-08-18 11:19:30.712 [main] INFO  com.ankai.AnKaiBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-18 11:19:31.394 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-18 11:22:38.944 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2025-08-18 11:22:38.980 [main] INFO  com.ankai.AnKaiBackendApplication - Starting AnKaiBackendApplication using Java 17.0.15 with PID 14716 (C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend\target\classes started by A in C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend)
+2025-08-18 11:22:38.982 [main] INFO  com.ankai.AnKaiBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-18 11:22:39.930 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-08-18 11:22:39.938 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-18 11:22:39.939 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-18 11:22:39.939 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-08-18 11:22:40.008 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2025-08-18 11:22:40.008 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 993 ms
+2025-08-18 11:22:40.794 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-18 11:22:40.811 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+2025-08-18 11:22:40.819 [main] INFO  com.ankai.AnKaiBackendApplication - Started AnKaiBackendApplication in 2.275 seconds (process running for 2.777)
+2025-08-18 11:26:38.896 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2025-08-18 11:26:38.936 [main] INFO  com.ankai.AnKaiBackendApplication - Starting AnKaiBackendApplication using Java 17.0.15 with PID 19480 (C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend\target\classes started by A in C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend)
+2025-08-18 11:26:38.938 [main] INFO  com.ankai.AnKaiBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-18 11:26:39.874 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-08-18 11:26:39.882 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-18 11:26:39.883 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-18 11:26:39.883 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-08-18 11:26:39.971 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2025-08-18 11:26:39.972 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 997 ms
+2025-08-18 11:26:40.631 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-18 11:26:40.649 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+2025-08-18 11:26:40.657 [main] INFO  com.ankai.AnKaiBackendApplication - Started AnKaiBackendApplication in 2.22 seconds (process running for 2.867)
+2025-08-18 11:29:17.607 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-18 11:29:17.610 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-18 11:29:17.618 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2025-08-18 13:44:54.567 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2025-08-18 13:44:54.607 [main] INFO  com.ankai.AnKaiBackendApplication - Starting AnKaiBackendApplication using Java 17.0.15 with PID 20856 (C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend\target\classes started by A in C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend)
+2025-08-18 13:44:54.608 [main] INFO  com.ankai.AnKaiBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-18 13:44:55.503 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-08-18 13:44:55.512 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-18 13:44:55.513 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-18 13:44:55.513 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-08-18 13:44:55.581 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2025-08-18 13:44:55.581 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 937 ms
+2025-08-18 13:44:56.264 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-18 13:44:56.279 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+2025-08-18 13:44:56.286 [main] INFO  com.ankai.AnKaiBackendApplication - Started AnKaiBackendApplication in 2.165 seconds (process running for 2.83)
+2025-08-18 14:17:14.675 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2025-08-18 14:17:14.718 [main] INFO  com.ankai.AnKaiBackendApplication - Starting AnKaiBackendApplication using Java 17.0.15 with PID 24128 (C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend\target\classes started by A in C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend)
+2025-08-18 14:17:14.718 [main] INFO  com.ankai.AnKaiBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-18 14:17:15.803 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-08-18 14:17:15.811 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-18 14:17:15.811 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-18 14:17:15.811 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-08-18 14:17:15.889 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2025-08-18 14:17:15.890 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1127 ms
+2025-08-18 14:17:16.690 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@20820df0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9e62fb, org.springframework.security.web.context.SecurityContextHolderFilter@5835e24a, org.springframework.security.web.header.HeaderWriterFilter@2c0798bd, org.springframework.security.web.authentication.logout.LogoutFilter@278fe428, com.ankai.security.JwtAuthenticationFilter@5bfc79cb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74a85515, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a2e1e52, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@205159dc, org.springframework.security.web.session.SessionManagementFilter@44b9c7c4, org.springframework.security.web.access.ExceptionTranslationFilter@5885e231, org.springframework.security.web.access.intercept.AuthorizationFilter@1186374c]
+2025-08-18 14:17:16.889 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-18 14:17:16.906 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+2025-08-18 14:17:16.914 [main] INFO  com.ankai.AnKaiBackendApplication - Started AnKaiBackendApplication in 2.705 seconds (process running for 3.371)
+2025-08-18 14:17:53.937 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-18 14:17:53.937 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-18 14:17:53.938 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-18 14:32:06.053 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2025-08-18 14:32:06.089 [main] INFO  com.ankai.AnKaiBackendApplication - Starting AnKaiBackendApplication using Java 17.0.15 with PID 25240 (C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend\target\classes started by A in C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend)
+2025-08-18 14:32:06.090 [main] INFO  com.ankai.AnKaiBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-18 14:32:07.130 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-08-18 14:32:07.138 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-18 14:32:07.138 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-18 14:32:07.138 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-08-18 14:32:07.210 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2025-08-18 14:32:07.212 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1090 ms
+2025-08-18 14:32:07.959 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@44084713, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d8b7ea9, org.springframework.security.web.context.SecurityContextHolderFilter@349312d5, org.springframework.security.web.header.HeaderWriterFilter@3a5b7d7e, org.springframework.security.web.authentication.logout.LogoutFilter@54b44879, com.ankai.security.JwtAuthenticationFilter@7a66c35a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47eaf55c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c0798bd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a39e554, org.springframework.security.web.session.SessionManagementFilter@26994c6a, org.springframework.security.web.access.ExceptionTranslationFilter@12209826, org.springframework.security.web.access.intercept.AuthorizationFilter@31f31b20]
+2025-08-18 14:32:08.177 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-18 14:32:08.192 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+2025-08-18 14:32:08.201 [main] INFO  com.ankai.AnKaiBackendApplication - Started AnKaiBackendApplication in 2.617 seconds (process running for 3.349)
+2025-08-18 14:32:42.897 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-18 14:32:42.897 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-18 14:32:42.898 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-18 14:37:16.045 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2025-08-18 14:37:16.104 [main] INFO  com.ankai.AnKaiBackendApplication - Starting AnKaiBackendApplication using Java 17.0.15 with PID 25104 (C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend\target\classes started by A in C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend)
+2025-08-18 14:37:16.106 [main] INFO  com.ankai.AnKaiBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-18 14:37:17.519 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-08-18 14:37:17.528 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-18 14:37:17.529 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-18 14:37:17.529 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-08-18 14:37:17.608 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2025-08-18 14:37:17.609 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1446 ms
+2025-08-18 14:37:18.448 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@8383a14, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b691611, org.springframework.security.web.context.SecurityContextHolderFilter@3c3e363, org.springframework.security.web.header.HeaderWriterFilter@54b44879, org.springframework.security.web.authentication.logout.LogoutFilter@73b74615, com.ankai.security.JwtAuthenticationFilter@686cf8ad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f8659d0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@278fe428, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@395a573c, org.springframework.security.web.session.SessionManagementFilter@5a39e554, org.springframework.security.web.access.ExceptionTranslationFilter@15d88c10, org.springframework.security.web.access.intercept.AuthorizationFilter@192b472d]
+2025-08-18 14:37:18.682 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-18 14:37:18.697 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+2025-08-18 14:37:18.705 [main] INFO  com.ankai.AnKaiBackendApplication - Started AnKaiBackendApplication in 3.252 seconds (process running for 4.301)
+2025-08-18 14:39:21.846 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-18 14:39:21.846 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-18 14:39:21.847 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-18 15:09:45.968 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2025-08-18 15:09:46.009 [main] INFO  com.ankai.AnKaiBackendApplication - Starting AnKaiBackendApplication using Java 17.0.15 with PID 28088 (C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend\target\classes started by A in C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend)
+2025-08-18 15:09:46.010 [main] INFO  com.ankai.AnKaiBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-18 15:09:47.197 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-08-18 15:09:47.205 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-18 15:09:47.205 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-18 15:09:47.205 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-08-18 15:09:47.278 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2025-08-18 15:09:47.278 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1225 ms
+2025-08-18 15:09:48.016 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5486ee92, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20820df0, org.springframework.security.web.context.SecurityContextHolderFilter@3611153f, org.springframework.security.web.header.HeaderWriterFilter@47eaf55c, org.springframework.security.web.authentication.logout.LogoutFilter@4f8659d0, com.ankai.security.JwtAuthenticationFilter@3bbf1c0d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5238896f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@74a85515, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9e62fb, org.springframework.security.web.session.SessionManagementFilter@5896cb9c, org.springframework.security.web.access.ExceptionTranslationFilter@349312d5, org.springframework.security.web.access.intercept.AuthorizationFilter@2a7bc16b]
+2025-08-18 15:09:48.220 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-18 15:09:48.237 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+2025-08-18 15:09:48.244 [main] INFO  com.ankai.AnKaiBackendApplication - Started AnKaiBackendApplication in 2.733 seconds (process running for 3.427)
+2025-08-18 15:17:38.576 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2025-08-18 15:17:38.640 [main] INFO  com.ankai.AnKaiBackendApplication - Starting AnKaiBackendApplication using Java 17.0.15 with PID 19836 (C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend\target\classes started by A in C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend)
+2025-08-18 15:17:38.642 [main] INFO  com.ankai.AnKaiBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-18 15:17:40.893 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-08-18 15:17:40.903 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-18 15:17:40.904 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-18 15:17:40.904 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-08-18 15:17:41.013 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2025-08-18 15:17:41.014 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2308 ms
+2025-08-18 15:17:42.038 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@42cc5460, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5486ee92, org.springframework.security.web.context.SecurityContextHolderFilter@674184d, org.springframework.security.web.header.HeaderWriterFilter@5885e231, org.springframework.security.web.authentication.logout.LogoutFilter@16c5b50a, com.ankai.security.JwtAuthenticationFilter@6b4a4e40, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5835e24a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5238896f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20820df0, org.springframework.security.web.session.SessionManagementFilter@2712e8f4, org.springframework.security.web.access.ExceptionTranslationFilter@27d98bef, org.springframework.security.web.access.intercept.AuthorizationFilter@406ad6d5]
+2025-08-18 15:17:42.285 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-18 15:17:42.305 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+2025-08-18 15:17:42.313 [main] INFO  com.ankai.AnKaiBackendApplication - Started AnKaiBackendApplication in 4.431 seconds (process running for 5.499)
+2025-08-18 15:18:39.325 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-18 15:18:39.325 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-18 15:18:39.327 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-08-18 17:08:28.459 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2025-08-18 17:08:28.496 [main] INFO  com.ankai.AnKaiBackendApplication - Starting AnKaiBackendApplication using Java 17.0.15 with PID 23652 (C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend\target\classes started by A in C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend)
+2025-08-18 17:08:28.497 [main] INFO  com.ankai.AnKaiBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-18 17:08:29.582 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-08-18 17:08:29.591 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-18 17:08:29.591 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-18 17:08:29.591 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-08-18 17:08:29.662 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2025-08-18 17:08:29.662 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1130 ms
+2025-08-18 17:08:30.400 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@350bbd5d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c3e363, org.springframework.security.web.context.SecurityContextHolderFilter@2e3252, org.springframework.security.web.header.HeaderWriterFilter@2a2b7a35, org.springframework.security.web.authentication.logout.LogoutFilter@2d6a0766, com.ankai.security.JwtAuthenticationFilter@7a66c35a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@671d97bc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@774f2992, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16c5b50a, org.springframework.security.web.session.SessionManagementFilter@5885e231, org.springframework.security.web.access.ExceptionTranslationFilter@5bb7a59, org.springframework.security.web.access.intercept.AuthorizationFilter@6d8b7ea9]
+2025-08-18 17:08:30.629 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-18 17:08:30.653 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+2025-08-18 17:08:30.661 [main] INFO  com.ankai.AnKaiBackendApplication - Started AnKaiBackendApplication in 2.643 seconds (process running for 3.958)
+2025-08-18 17:09:26.339 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-18 17:09:26.339 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-18 17:09:26.340 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-18 17:19:26.482 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2025-08-18 17:19:26.523 [main] INFO  com.ankai.AnKaiBackendApplication - Starting AnKaiBackendApplication using Java 17.0.15 with PID 21720 (C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend\target\classes started by A in C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend)
+2025-08-18 17:19:26.525 [main] INFO  com.ankai.AnKaiBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-18 17:19:27.698 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-08-18 17:19:27.705 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-18 17:19:27.706 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-18 17:19:27.706 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-08-18 17:19:27.780 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2025-08-18 17:19:27.780 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1213 ms
+2025-08-18 17:19:28.588 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@45b96e4c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8383a14, org.springframework.security.web.context.SecurityContextHolderFilter@350bbd5d, org.springframework.security.web.header.HeaderWriterFilter@22ca1242, org.springframework.security.web.authentication.logout.LogoutFilter@63a7781, com.ankai.security.JwtAuthenticationFilter@5bb8e6fc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16c5b50a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f8659d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b691611, org.springframework.security.web.session.SessionManagementFilter@6d8b7ea9, org.springframework.security.web.access.ExceptionTranslationFilter@6f986501, org.springframework.security.web.access.intercept.AuthorizationFilter@320ff86f]
+2025-08-18 17:19:28.814 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-18 17:19:28.832 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+2025-08-18 17:19:28.840 [main] INFO  com.ankai.AnKaiBackendApplication - Started AnKaiBackendApplication in 2.805 seconds (process running for 3.469)
+2025-08-18 17:19:49.068 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-18 17:19:49.068 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-18 17:19:49.069 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-18 17:24:32.843 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2025-08-18 17:24:32.880 [main] INFO  com.ankai.AnKaiBackendApplication - Starting AnKaiBackendApplication using Java 17.0.15 with PID 23436 (C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend\target\classes started by A in C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend)
+2025-08-18 17:24:32.881 [main] INFO  com.ankai.AnKaiBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-18 17:24:33.807 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-08-18 17:24:33.815 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-18 17:24:33.815 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-18 17:24:33.815 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-08-18 17:24:33.880 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-18 17:24:33.881 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 964 ms
+2025-08-18 17:24:34.543 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@43c0c13a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@731db93f, org.springframework.security.web.context.SecurityContextHolderFilter@4a2e1e52, org.springframework.security.web.header.HeaderWriterFilter@671d97bc, org.springframework.security.web.authentication.logout.LogoutFilter@7d28cdcd, com.ankai.security.JwtAuthenticationFilter@5bfc79cb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b9b17ce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d2def55, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67941d, org.springframework.security.web.session.SessionManagementFilter@5835e24a, org.springframework.security.web.access.ExceptionTranslationFilter@2e3252, org.springframework.security.web.access.intercept.AuthorizationFilter@20820df0]
+2025-08-18 17:24:34.737 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-18 17:24:34.755 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-18 17:24:34.765 [main] INFO  com.ankai.AnKaiBackendApplication - Started AnKaiBackendApplication in 2.377 seconds (process running for 2.976)
+2025-08-18 17:24:50.951 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-18 17:24:50.951 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-18 17:24:50.953 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-08-18 17:24:50.962 [http-nio-8080-exec-1] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: POST /api/auth/login
+2025-08-18 17:24:50.962 [http-nio-8080-exec-1] INFO  com.ankai.security.JwtAuthenticationFilter - 跳过JWT验证，直接放行: /api/auth/login
+2025-08-18 17:24:51.083 [http-nio-8080-exec-1] INFO  com.ankai.controller.AuthController - 接收到登录请求: admin
+2025-08-18 17:24:51.084 [http-nio-8080-exec-1] INFO  com.ankai.service.impl.AuthServiceImpl - 用户登录请求: admin
+2025-08-18 17:24:51.156 [http-nio-8080-exec-1] INFO  com.ankai.security.UserDetailsServiceImpl - 加载用户信息: admin
+2025-08-18 17:24:51.176 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-18 17:24:51.542 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1791eed8
+2025-08-18 17:24:51.543 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-18 17:24:51.648 [http-nio-8080-exec-1] INFO  com.ankai.security.UserDetailsServiceImpl - 用户 admin 拥有权限: [ROLE_SUPER_ADMIN, SUPER_ADMIN]
+2025-08-18 17:25:24.049 [http-nio-8080-exec-2] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: POST /api/auth/login
+2025-08-18 17:25:24.050 [http-nio-8080-exec-2] INFO  com.ankai.security.JwtAuthenticationFilter - 跳过JWT验证，直接放行: /api/auth/login
+2025-08-18 17:25:24.051 [http-nio-8080-exec-2] INFO  com.ankai.controller.AuthController - 接收到登录请求: admin
+2025-08-18 17:25:24.051 [http-nio-8080-exec-2] INFO  com.ankai.service.impl.AuthServiceImpl - 用户登录请求: admin
+2025-08-18 17:25:24.051 [http-nio-8080-exec-2] INFO  com.ankai.security.UserDetailsServiceImpl - 加载用户信息: admin
+2025-08-18 17:25:24.127 [http-nio-8080-exec-2] INFO  com.ankai.security.UserDetailsServiceImpl - 用户 admin 拥有权限: [ROLE_SUPER_ADMIN, SUPER_ADMIN]
+2025-08-18 17:27:16.762 [http-nio-8080-exec-3] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: POST /api/auth/login
+2025-08-18 17:27:16.762 [http-nio-8080-exec-3] INFO  com.ankai.security.JwtAuthenticationFilter - 跳过JWT验证，直接放行: /api/auth/login
+2025-08-18 17:27:16.763 [http-nio-8080-exec-3] INFO  com.ankai.controller.AuthController - 接收到登录请求: admin
+2025-08-18 17:27:16.763 [http-nio-8080-exec-3] INFO  com.ankai.service.impl.AuthServiceImpl - 用户登录请求: admin
+2025-08-18 17:27:16.763 [http-nio-8080-exec-3] INFO  com.ankai.security.UserDetailsServiceImpl - 加载用户信息: admin
+2025-08-18 17:27:16.844 [http-nio-8080-exec-3] INFO  com.ankai.security.UserDetailsServiceImpl - 用户 admin 拥有权限: [ROLE_SUPER_ADMIN, SUPER_ADMIN]
+2025-08-18 17:30:30.213 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-18 17:30:30.233 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-18 17:30:34.564 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2025-08-18 17:30:34.602 [main] INFO  com.ankai.AnKaiBackendApplication - Starting AnKaiBackendApplication using Java 17.0.15 with PID 22132 (C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend\target\classes started by A in C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend)
+2025-08-18 17:30:34.603 [main] INFO  com.ankai.AnKaiBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-18 17:30:35.599 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-08-18 17:30:35.607 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-18 17:30:35.608 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-18 17:30:35.608 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-08-18 17:30:35.683 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-18 17:30:35.683 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1044 ms
+2025-08-18 17:30:36.404 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@cd5ff55, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6003220a, org.springframework.security.web.context.SecurityContextHolderFilter@9e62fb, org.springframework.security.web.header.HeaderWriterFilter@350bbd5d, org.springframework.security.web.authentication.logout.LogoutFilter@7e3ee128, com.ankai.security.JwtAuthenticationFilter@5dbab232, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43c0c13a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@731db93f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16b64a03, org.springframework.security.web.session.SessionManagementFilter@42cc5460, org.springframework.security.web.access.ExceptionTranslationFilter@5a39e554, org.springframework.security.web.access.intercept.AuthorizationFilter@374b6e33]
+2025-08-18 17:30:36.608 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-18 17:30:36.623 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-18 17:30:36.631 [main] INFO  com.ankai.AnKaiBackendApplication - Started AnKaiBackendApplication in 2.494 seconds (process running for 3.185)
+2025-08-18 17:32:07.462 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-18 17:32:07.462 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-18 17:32:07.464 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-18 17:32:07.477 [http-nio-8080-exec-1] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: GET /api/swagger-ui/
+2025-08-18 17:32:07.573 [http-nio-8080-exec-2] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: GET /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 17:32:07.997 [http-nio-8080-exec-5] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: GET /favicon.ico
+2025-08-18 17:32:48.532 [http-nio-8080-exec-6] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: POST /api/password/encode
+2025-08-18 17:32:48.532 [http-nio-8080-exec-6] INFO  com.ankai.security.JwtAuthenticationFilter - 跳过JWT验证，直接放行: /api/password/encode
+2025-08-18 17:33:03.561 [http-nio-8080-exec-7] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: POST /api/password/encode
+2025-08-18 17:33:03.561 [http-nio-8080-exec-7] INFO  com.ankai.security.JwtAuthenticationFilter - 跳过JWT验证，直接放行: /api/password/encode
+2025-08-18 17:33:28.850 [http-nio-8080-exec-8] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: POST /api/password/encode
+2025-08-18 17:33:28.850 [http-nio-8080-exec-8] INFO  com.ankai.security.JwtAuthenticationFilter - 跳过JWT验证，直接放行: /api/password/encode
+2025-08-18 17:33:45.578 [http-nio-8080-exec-10] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: GET /api/swagger-ui/
+2025-08-18 17:33:45.602 [http-nio-8080-exec-1] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: GET /.well-known/appspecific/com.chrome.devtools.json
+2025-08-18 17:33:57.308 [http-nio-8080-exec-4] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: POST /api/auth/login
+2025-08-18 17:33:57.309 [http-nio-8080-exec-4] INFO  com.ankai.security.JwtAuthenticationFilter - 跳过JWT验证，直接放行: /api/auth/login
+2025-08-18 17:33:57.408 [http-nio-8080-exec-4] INFO  com.ankai.controller.AuthController - 接收到登录请求: admin
+2025-08-18 17:33:57.409 [http-nio-8080-exec-4] INFO  com.ankai.service.impl.AuthServiceImpl - 用户登录请求: admin
+2025-08-18 17:33:57.480 [http-nio-8080-exec-4] INFO  com.ankai.security.UserDetailsServiceImpl - 加载用户信息: admin
+2025-08-18 17:33:57.499 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-18 17:33:57.868 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e1f7278
+2025-08-18 17:33:57.872 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-18 17:33:57.976 [http-nio-8080-exec-4] INFO  com.ankai.security.UserDetailsServiceImpl - 用户 admin 拥有权限: [ROLE_SUPER_ADMIN, SUPER_ADMIN]
+2025-08-18 17:34:28.528 [http-nio-8080-exec-3] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: POST /api/auth/login
+2025-08-18 17:34:28.528 [http-nio-8080-exec-3] INFO  com.ankai.security.JwtAuthenticationFilter - 跳过JWT验证，直接放行: /api/auth/login
+2025-08-18 17:34:28.529 [http-nio-8080-exec-3] INFO  com.ankai.controller.AuthController - 接收到登录请求: admin
+2025-08-18 17:34:32.409 [http-nio-8080-exec-3] INFO  com.ankai.service.impl.AuthServiceImpl - 用户登录请求: admin
+2025-08-18 17:34:32.410 [http-nio-8080-exec-3] INFO  com.ankai.security.UserDetailsServiceImpl - 加载用户信息: admin
+2025-08-18 17:34:32.496 [http-nio-8080-exec-3] INFO  com.ankai.security.UserDetailsServiceImpl - 用户 admin 拥有权限: [ROLE_SUPER_ADMIN, SUPER_ADMIN]
+2025-08-18 17:37:24.203 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-18 17:37:24.210 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-18 17:37:28.009 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2025-08-18 17:37:28.052 [main] INFO  com.ankai.AnKaiBackendApplication - Starting AnKaiBackendApplication using Java 17.0.15 with PID 26436 (C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend\target\classes started by A in C:\Users\A\Desktop\AnKaiBackend\Ankai_Backend)
+2025-08-18 17:37:28.053 [main] INFO  com.ankai.AnKaiBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-18 17:37:29.057 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-08-18 17:37:29.064 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-18 17:37:29.065 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-18 17:37:29.065 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-08-18 17:37:29.130 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-18 17:37:29.131 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1042 ms
+2025-08-18 17:37:29.812 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1186374c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42cc5460, org.springframework.security.web.context.SecurityContextHolderFilter@44b9c7c4, org.springframework.security.web.header.HeaderWriterFilter@349312d5, org.springframework.security.web.authentication.logout.LogoutFilter@3c3e363, com.ankai.security.JwtAuthenticationFilter@72c9ebfa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3611153f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5835e24a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5486ee92, org.springframework.security.web.session.SessionManagementFilter@d49e8c6, org.springframework.security.web.access.ExceptionTranslationFilter@3cd46491, org.springframework.security.web.access.intercept.AuthorizationFilter@255ed8e4]
+2025-08-18 17:37:30.018 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-18 17:37:30.034 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-18 17:37:30.040 [main] INFO  com.ankai.AnKaiBackendApplication - Started AnKaiBackendApplication in 2.557 seconds (process running for 3.153)
+2025-08-18 17:37:40.805 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-18 17:37:40.805 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-18 17:37:40.806 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-18 17:37:40.815 [http-nio-8080-exec-1] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: POST /api/auth/login
+2025-08-18 17:37:40.816 [http-nio-8080-exec-1] INFO  com.ankai.security.JwtAuthenticationFilter - 跳过JWT验证，直接放行: /api/auth/login
+2025-08-18 17:37:40.932 [http-nio-8080-exec-1] INFO  com.ankai.controller.AuthController - 接收到登录请求: admin
+2025-08-18 17:37:43.292 [http-nio-8080-exec-1] INFO  com.ankai.service.impl.AuthServiceImpl - 用户登录请求: admin
+2025-08-18 17:37:44.223 [http-nio-8080-exec-1] INFO  com.ankai.security.UserDetailsServiceImpl - 加载用户信息: admin
+2025-08-18 17:37:44.279 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-18 17:37:45.021 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ef84a35
+2025-08-18 17:37:45.027 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-18 17:37:45.403 [http-nio-8080-exec-1] INFO  com.ankai.security.UserDetailsServiceImpl - 用户 admin 拥有权限: [ROLE_SUPER_ADMIN, SUPER_ADMIN]
+2025-08-18 17:37:46.357 [http-nio-8080-exec-1] INFO  com.ankai.service.impl.AuthServiceImpl - 用户登录成功: admin
+2025-08-18 17:37:53.518 [http-nio-8080-exec-2] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: GET /api/test/hello
+2025-08-18 17:37:53.518 [http-nio-8080-exec-2] INFO  com.ankai.security.JwtAuthenticationFilter - 跳过JWT验证，直接放行: /api/test/hello
+2025-08-18 17:37:55.950 [http-nio-8080-exec-3] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: GET /api/test/info
+2025-08-18 17:37:55.950 [http-nio-8080-exec-3] INFO  com.ankai.security.JwtAuthenticationFilter - 跳过JWT验证，直接放行: /api/test/info
+2025-08-18 17:38:13.798 [http-nio-8080-exec-4] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: POST /api/auth/logout
+2025-08-18 17:38:13.798 [http-nio-8080-exec-4] INFO  com.ankai.security.JwtAuthenticationFilter - 跳过JWT验证，直接放行: /api/auth/logout
+2025-08-18 17:38:13.820 [http-nio-8080-exec-4] INFO  com.ankai.controller.AuthController - 用户登出: 失败
+2025-08-18 17:38:41.244 [http-nio-8080-exec-6] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: POST /api/auth/login
+2025-08-18 17:38:41.244 [http-nio-8080-exec-6] INFO  com.ankai.security.JwtAuthenticationFilter - 跳过JWT验证，直接放行: /api/auth/login
+2025-08-18 17:38:41.246 [http-nio-8080-exec-6] INFO  com.ankai.controller.AuthController - 接收到登录请求: admin
+2025-08-18 17:38:43.049 [http-nio-8080-exec-6] INFO  com.ankai.service.impl.AuthServiceImpl - 用户登录请求: admin
+2025-08-18 17:38:43.049 [http-nio-8080-exec-6] INFO  com.ankai.security.UserDetailsServiceImpl - 加载用户信息: admin
+2025-08-18 17:38:43.127 [http-nio-8080-exec-6] INFO  com.ankai.security.UserDetailsServiceImpl - 用户 admin 拥有权限: [ROLE_SUPER_ADMIN, SUPER_ADMIN]
+2025-08-18 17:38:43.228 [http-nio-8080-exec-6] INFO  com.ankai.service.impl.AuthServiceImpl - 用户登录成功: admin
+2025-08-18 17:38:51.924 [http-nio-8080-exec-7] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: GET /api/swagger-ui/
+2025-08-18 17:40:44.602 [http-nio-8080-exec-9] INFO  com.ankai.security.JwtAuthenticationFilter - JWT过滤器处理请求: POST /api/auth/logout
+2025-08-18 17:40:44.603 [http-nio-8080-exec-9] INFO  com.ankai.security.JwtAuthenticationFilter - 跳过JWT验证，直接放行: /api/auth/logout
+2025-08-18 17:40:44.606 [http-nio-8080-exec-9] INFO  com.ankai.controller.AuthController - 用户登出: 失败
