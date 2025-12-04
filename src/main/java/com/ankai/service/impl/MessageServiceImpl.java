@@ -6,11 +6,13 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.ankai.common.PageRequest;
 import com.ankai.dto.ChatSession;
+import com.ankai.dto.SseEventData;
 import com.ankai.entity.Message;
 import com.ankai.entity.User;
 import com.ankai.mapper.MessageMapper;
 import com.ankai.service.MessageService;
 import com.ankai.service.OnlineUserService;
+import com.ankai.service.SseService;
 import com.ankai.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -33,6 +35,9 @@ public class MessageServiceImpl extends ServiceImpl<MessageMapper, Message> impl
     @Autowired
     private OnlineUserService onlineUserService;
 
+    @Autowired
+    private SseService sseService;
+
     @Override
     public boolean sendMessage(Long senderId, String senderName, Long receiverId, String receiverName, String content) {
         Message message = new Message();
@@ -44,7 +49,29 @@ public class MessageServiceImpl extends ServiceImpl<MessageMapper, Message> impl
         message.setMessageType(2); // 默认私信
         message.setIsRead(0);
         message.setDeleted(0);
-        return save(message);
+        boolean saved = save(message);
+
+        // 发送成功后，通过SSE推送给接收者
+        if (saved) {
+            // 获取接收者的未读消息数
+            int unreadCount = getUnreadCount(receiverId);
+
+            // 构建推送数据
+            SseEventData eventData = new SseEventData();
+            eventData.setType("new_message");
+            eventData.setUnreadCount(unreadCount);
+            eventData.setMessage("您收到一条新消息");
+            eventData.setData(Map.of(
+                    "messageId", message.getId(),
+                    "senderId", senderId,
+                    "senderName", senderName,
+                    "content", content.length() > 50 ? content.substring(0, 50) + "..." : content));
+
+            // 推送给接收者
+            sseService.sendToUser(receiverId, "message", eventData);
+        }
+
+        return saved;
     }
 
     @Override

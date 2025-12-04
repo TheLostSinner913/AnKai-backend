@@ -42,4 +42,22 @@ public interface TodoService extends IService<Todo> {
      * 忽略待办
      */
     boolean ignoreTodo(Long todoId, Long userId);
+
+    /**
+     * 系统分配待办（会触发SSE推送）
+     * 
+     * @param userId 目标用户ID
+     * @param todo   待办信息
+     * @return 是否成功
+     */
+    boolean assignTodo(Long userId, Todo todo);
+
+    /**
+     * 批量系统分配待办（会触发SSE推送）
+     * 
+     * @param userIds 目标用户ID列表
+     * @param todo    待办信息（会为每个用户创建一份）
+     * @return 是否成功
+     */
+    boolean assignTodoToUsers(List<Long> userIds, Todo todo);
 }

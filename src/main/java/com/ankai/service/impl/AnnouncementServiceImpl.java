@@ -1,10 +1,12 @@
 package com.ankai.service.impl;
 
+import com.ankai.dto.SseEventData;
 import com.ankai.entity.Announcement;
 import com.ankai.entity.AnnouncementUser;
 import com.ankai.mapper.AnnouncementMapper;
 import com.ankai.mapper.AnnouncementUserMapper;
 import com.ankai.service.AnnouncementService;
+import com.ankai.service.SseService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -12,6 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 系统公告Service实现
@@ -20,9 +23,11 @@ import java.util.List;
  */
 @Service
 @RequiredArgsConstructor
-public class AnnouncementServiceImpl extends ServiceImpl<AnnouncementMapper, Announcement> implements AnnouncementService {
+public class AnnouncementServiceImpl extends ServiceImpl<AnnouncementMapper, Announcement>
+        implements AnnouncementService {
 
     private final AnnouncementUserMapper announcementUserMapper;
+    private final SseService sseService;
 
     @Override
     public List<Announcement> getVisibleAnnouncements(Long userId, int limit) {
@@ -43,9 +48,11 @@ public class AnnouncementServiceImpl extends ServiceImpl<AnnouncementMapper, Ann
             return false;
         }
 
-        // 如果是指定用户发布，插入关联记录
+        // 获取公告信息用于推送
+        Announcement announcement = getById(announcementId);
+
+        // 如果是指定用户发布，插入关联记录并推送
         if (targetUserIds != null && !targetUserIds.isEmpty()) {
-            Announcement announcement = getById(announcementId);
             if (announcement != null && announcement.getTargetType() == 2) {
                 for (Long targetUserId : targetUserIds) {
                     AnnouncementUser au = new AnnouncementUser();
@@ -54,10 +61,52 @@ public class AnnouncementServiceImpl extends ServiceImpl<AnnouncementMapper, Ann
                     au.setIsRead(0);
                     announcementUserMapper.insert(au);
                 }
+                // 推送给指定用户
+                pushAnnouncementToUsers(announcement, targetUserIds);
+            }
+        } else {
+            // 全员公告，广播给所有在线用户
+            if (announcement != null && announcement.getTargetType() == 1) {
+                pushAnnouncementToAll(announcement);
             }
         }
 
         return true;
+    }
+
+    /**
+     * 推送公告给指定用户
+     */
+    private void pushAnnouncementToUsers(Announcement announcement, List<Long> userIds) {
+        SseEventData eventData = buildAnnouncementEventData(announcement);
+        for (Long targetUserId : userIds) {
+            sseService.sendToUser(targetUserId, "announcement", eventData);
+        }
+    }
+
+    /**
+     * 广播公告给所有用户
+     */
+    private void pushAnnouncementToAll(Announcement announcement) {
+        SseEventData eventData = buildAnnouncementEventData(announcement);
+        sseService.sendToAll("announcement", eventData);
+    }
+
+    /**
+     * 构建公告推送数据
+     */
+    private SseEventData buildAnnouncementEventData(Announcement announcement) {
+        SseEventData eventData = new SseEventData();
+        eventData.setType("new_announcement");
+        eventData.setMessage("您有一条新公告");
+        eventData.setData(Map.of(
+                "announcementId", announcement.getId(),
+                "title", announcement.getTitle(),
+                "announcementType", announcement.getAnnouncementType(),
+                "content", announcement.getContent().length() > 100
+                        ? announcement.getContent().substring(0, 100) + "..."
+                        : announcement.getContent()));
+        return eventData;
     }
 
     @Override
@@ -115,4 +164,3 @@ public class AnnouncementServiceImpl extends ServiceImpl<AnnouncementMapper, Ann
         return unread;
     }
 }
-
